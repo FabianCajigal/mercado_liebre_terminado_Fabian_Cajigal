@@ -1,0 +1,303 @@
+/* 0-480 mobile       481-768 tablet   769 -1279 laptops   1280 + monitores */
+
+/* selector universar para html */
+* {box-sizing: border-box;
+}
+
+/* HEADER */
+
+/* Color de fondo del HEADER */
+header{
+    background-color: var(--amarillo);
+    padding: 5px;
+}
+
+.medio {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding:10px;
+}
+
+/* Lugar para poner barra de busqueda */ 
+.box {
+    width:250px;
+    padding:3px;
+    margin-left: 10px;
+    border:solid 1px black;
+    background-color: white;
+    text-align: left;
+}
+
+
+/* lupa de busqueda */
+.lupa {
+    width:20px;
+    padding:1px;
+    margin-left: 10px;
+    box-sizing:border-box;
+    border:solid 1px black;
+    background-color: white;
+}
+
+
+.hand-holding {
+    color:black;
+    text-align: center;
+    padding:10px;
+    margin-top:10px;
+}
+
+
+.interesados {
+    color: black;
+    margin-top:15px;
+}
+
+
+/* menu hamburguesa */
+.fa-bars{
+    background-color: #1259c3;
+    color:white;
+    padding:15px;
+    border-radius: 8px;
+}
+
+.burger-menu { 
+   text-align: center;
+   margin-top:20px;
+   margin-bottom:20px; 
+}
+
+
+
+
+/* Tamaño tipografico general */
+.texto {
+    font-size:12px;
+}
+
+/* Ancho Banner */
+.banner{
+    width: 100%;
+}
+
+
+
+/* Tamaño tipografico para BASADO EN LA ULTIMA VISITA y OFERTAS */
+.titulares {
+    font-size:24px;
+    text-align: center;
+}
+
+/* Tamaño tipografico para PRECIO */
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Tamaño tipografico para DESCUENTOS*/
+.descuentos {
+    font-size:16px;
+    color: var(--verde);
+}
+
+/* Tamaño tipografico para DESCRIPCIONES */
+.descripciones {
+    font-size:16px;
+}
+
+
+
+
+/* *{
+    box-sizing:border-box;
+    margin: 5px;
+    padding bottom:0;
+    font-family: 'Roboto', 'sans-serif';
+    text-decoration:none;
+    color: black;
+} */
+
+.fa-truck-moving {
+    color:var(--verde);
+    font-size: 16px;
+    padding:5px;
+    width:30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.config-icono-precio-desc-descrip {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    background-color: white;
+    
+}
+
+/* Centrar seccion main */
+.main {
+    width:90%;
+}
+
+.article {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.body-nav ul {
+    list-style:none;
+}
+
+
+
+/* .tarjeta {
+    text-align: center;
+} */
+
+
+/* .hand-holding {
+    color:black;
+    text-align: center;
+} */
+
+
+
+/* .footer-listas ul{
+    list-style:none;   
+} */
+
+
+
+
+.section {
+    text-align:center;
+}
+
+
+
+
+.visita {
+    display:block;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+/*FOOTER */
+/* logo tarjeta credito */
+.fa-credit-card{
+    color:var(--celeste);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.tarjeta{
+    color:var(--grisclaro);
+    font-size: 2rem;
+    margin-bottom:10px;
+}
+
+
+
+/* logo gift */
+.fa-gift{
+    color:var(--celeste);
+    font-size: 30px;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+
+/* logo seguridad */
+.fa-user-shield{
+    color:var(--celeste);
+    font-size: 30px;
+    margin-bottom:10px;
+    margin-top:50px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: white;
+    font-size:12px;
+    padding:30px;
+  
+
+}
+
+/* Tipografia y colores FOOTER */
+h3 {
+    color: var(--gris-oscuro);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+h3 {
+    font-size: 16px;
+}
+
+
+p {
+    color: var(--gris-oscuro);
+    font-size:12px;
+    font-weight:lighter;
+    text-align: center;
+}
+
+
+.copyright {
+    text-align: left;
+    padding: 1px;
+    margin-top:15px;
+}
+
+/* .interesados ul li i {
+    color:black;
+} */
+
+/* Media Queries  576  768  992   1200
+/* TABLET */
+
+
+
+@media (min-width:361px) {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)  
+}
+
+
+/* DESKTOP*/
+/* @media (min-width:769px){
+
+    display:flex;
+    justify-content: space-between;
+    .interesados: none{
+        none
+    }
+}
+
+.fa-bars{
+    background-color: #1259c3;
+    color:white;
+    padding:15px;
+}
+
+.burger-menu { 
+   text-align: center;
+   margin-top:20px;
+   margin-bottom:20px; 
+} */ 
